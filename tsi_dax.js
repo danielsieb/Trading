@@ -5,6 +5,8 @@ var emaLang = 20;
 var emaKurz = 6;
 var avg = 90;
 
+// Aha!
+
 function catchStockData(url, callback) {
 
 	var avg = 0;
