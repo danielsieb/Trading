@@ -720,96 +720,96 @@ catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?
 																														results['VNA'] = data;
 
 																														catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9386168&dateStart="+date+"&interval=Y1", function(data) {
-																														results['MMM'] = data;
+																															results['MMM'] = data;
 																													
-																														catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9386114&dateStart="+date+"&interval=Y1", function(data) {
-																															results['AEC1'] = data;
-																													
-																															catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385885&dateStart="+date+"&interval=Y1", function(data) {
-																																results['APC'] = data;
-																													
-																																catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9386000&dateStart="+date+"&interval=Y1", function(data) {
-																																	results['BCO'] = data;
-																													
-																																	catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9386014&dateStart="+date+"&interval=Y1", function(data) {
-																																		results['CAT1'] = data;
-																													
-																																		catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=21731398&dateStart="+date+"&interval=Y1", function(data) {
-																																			results['CHV'] = data;
-																													
-																																			catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385756&dateStart="+date+"&interval=Y1", function(data) {
-																																				results['CIS'] = data;
-																													
-																																				catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385862&dateStart="+date+"&interval=Y1", function(data) {
-																																					results['CCC3'] = data;
-																													
-																																					catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=11709741&dateStart="+date+"&interval=Y1", function(data) {
-																																						results['D6D8'] = data;
-																													
-																																						catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9386209&dateStart="+date+"&interval=Y1", function(data) {
-																																							results['XONA'] = data;
-																													
-																																							catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385931&dateStart="+date+"&interval=Y1", function(data) {
-																																								results['GEC'] = data;
-																													
-																																								catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=20798505&dateStart="+date+"&interval=Y1", function(data) {
-																																									results['GOS'] = data;
-																													
-																																									catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9386052&dateStart="+date+"&interval=Y1", function(data) {
-																																										results['HDI'] = data;
-																													
-																																										catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385733&dateStart="+date+"&interval=Y1", function(data) {
-																																											results['INL'] = data;
-																													
-																																											catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9386100&dateStart="+date+"&interval=Y1", function(data) {
-																																												results['IBM'] = data;
-																													
-																																												catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385912&dateStart="+date+"&interval=Y1", function(data) {
-																																													results['JNJ'] = data;
-																													
-																																													catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385801&dateStart="+date+"&interval=Y1", function(data) {
-																																														results['CMC'] = data;
-																													
-																																														catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385690&dateStart="+date+"&interval=Y1", function(data) {
-																																															results['MDO'] = data;
-																													
-																																															catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=31548133&dateStart="+date+"&interval=Y1", function(data) {
-																																																results['M6MK'] = data;
-																													
-																																																catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385717&dateStart="+date+"&interval=Y1", function(data) {
-																																																	results['MSF'] = data;
-																													
-																																																	catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=24155440&dateStart=23.08.2017&interval=Y1", function(data) {
-																																																		results['NKE'] = data;
-																													
-																																																		catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385990&dateStart="+date+"&interval=Y1", function(data) {
-																																																			results['PFE'] = data;
-																													
-																																																			catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385838&dateStart="+date+"&interval=Y1", function(data) {
-																																																				results['PRG'] = data;
-																													
-																																																				catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385870&dateStart="+date+"&interval=Y1", function(data) {
-																																																					results['WDP'] = data;
-																													
-																																																					catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=29383275&dateStart="+date+"&interval=Y1", function(data) {
-																																																						results['PA9'] = data;
-																													
-																																																						catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9386033&dateStart="+date+"&interval=Y1", function(data) {
-																																																							results['UTC1'] = data;
-																													
-																																																							catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=23788277&dateStart="+date+"&interval=Y1", function(data) {
-																																																								results['UNH'] = data;
-																													
-																																																								catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9620544&dateStart="+date+"&interval=Y1", function(data) {
-																																																									results['BAC'] = data;
-																													
-																																																									catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=22196914&dateStart="+date+"&interval=Y1", function(data) {
-																																																										results['V3V64'] = data;
-																													
-																																																										catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385921&dateStart="+date+"&interval=Y1", function(data) {
-																																																											results['WMT'] = data;
+																															catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9386114&dateStart="+date+"&interval=Y1", function(data) {
+																																results['AEC1'] = data;
+																														
+																																catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385885&dateStart="+date+"&interval=Y1", function(data) {
+																																	results['APC'] = data;
+																														
+																																	catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9386000&dateStart="+date+"&interval=Y1", function(data) {
+																																		results['BCO'] = data;
+																														
+																																		catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9386014&dateStart="+date+"&interval=Y1", function(data) {
+																																			results['CAT1'] = data;
+																														
+																																			catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=21731398&dateStart="+date+"&interval=Y1", function(data) {
+																																				results['CHV'] = data;
+																														
+																																				catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385756&dateStart="+date+"&interval=Y1", function(data) {
+																																					results['CIS'] = data;
+																														
+																																					catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385862&dateStart="+date+"&interval=Y1", function(data) {
+																																						results['CCC3'] = data;
+																														
+																																						catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=11709741&dateStart="+date+"&interval=Y1", function(data) {
+																																							results['D6D8'] = data;
+																														
+																																							catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9386209&dateStart="+date+"&interval=Y1", function(data) {
+																																								results['XONA'] = data;
+																														
+																																								catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385931&dateStart="+date+"&interval=Y1", function(data) {
+																																									results['GEC'] = data;
+																														
+																																									catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=20798505&dateStart="+date+"&interval=Y1", function(data) {
+																																										results['GOS'] = data;
+																														
+																																										catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9386052&dateStart="+date+"&interval=Y1", function(data) {
+																																											results['HDI'] = data;
+																														
+																																											catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385733&dateStart="+date+"&interval=Y1", function(data) {
+																																												results['INL'] = data;
+																														
+																																												catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9386100&dateStart="+date+"&interval=Y1", function(data) {
+																																													results['IBM'] = data;
+																														
+																																													catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385912&dateStart="+date+"&interval=Y1", function(data) {
+																																														results['JNJ'] = data;
+																														
+																																														catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385801&dateStart="+date+"&interval=Y1", function(data) {
+																																															results['CMC'] = data;
+																														
+																																															catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385690&dateStart="+date+"&interval=Y1", function(data) {
+																																																results['MDO'] = data;
+																														
+																																																catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=31548133&dateStart="+date+"&interval=Y1", function(data) {
+																																																	results['M6MK'] = data;
+																														
+																																																	catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385717&dateStart="+date+"&interval=Y1", function(data) {
+																																																		results['MSF'] = data;
+																														
+																																																		catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=24155440&dateStart=23.08.2017&interval=Y1", function(data) {
+																																																			results['NKE'] = data;
+																														
+																																																			catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385990&dateStart="+date+"&interval=Y1", function(data) {
+																																																				results['PFE'] = data;
+																														
+																																																				catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385838&dateStart="+date+"&interval=Y1", function(data) {
+																																																					results['PRG'] = data;
+																														
+																																																					catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385870&dateStart="+date+"&interval=Y1", function(data) {
+																																																						results['WDP'] = data;
+																														
+																																																						catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=29383275&dateStart="+date+"&interval=Y1", function(data) {
+																																																							results['PA9'] = data;
+																														
+																																																							catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9386033&dateStart="+date+"&interval=Y1", function(data) {
+																																																								results['UTC1'] = data;
+																														
+																																																								catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=23788277&dateStart="+date+"&interval=Y1", function(data) {
+																																																									results['UNH'] = data;
+																														
+																																																									catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9620544&dateStart="+date+"&interval=Y1", function(data) {
+																																																										results['BAC'] = data;
+																														
+																																																										catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=22196914&dateStart="+date+"&interval=Y1", function(data) {
+																																																											results['V3V64'] = data;
+																														
+																																																											catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385921&dateStart="+date+"&interval=Y1", function(data) {
+																																																												results['WMT'] = data;
 
-																																																											handleArray(results);
+																																																												handleArray(results);
 																																																																																								
 																																																											});
 																																																										});
