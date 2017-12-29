@@ -8,7 +8,7 @@ var avg = 90;
 function catchStockData(url, callback) {
 
 	var avg = 0;
-
+//hallo
 	request(url, function (err, res, body) {
 		if (!err && res.statusCode == 200) {
 
