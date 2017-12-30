@@ -896,6 +896,9 @@ results['ABEA'] = data;
 catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9386024&dateStart="+date+"&interval=Y1", function(data) {
 results['PHM7'] = data;
 
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9386024&dateStart="+date+"&interval=Y1", function(data) {
+results['PHM7'] = data;
+
 																																																														
 
 
