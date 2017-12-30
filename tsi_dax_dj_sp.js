@@ -1603,6 +1603,42 @@ results['CP6'] = data;
 catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385988&dateStart="+date+"&interval=Y1", function(data) {
 results['GLW'] = data;
 
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9386130&dateStart="+date+"&interval=Y1", function(data) {
+results['CTO'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=82591391&dateStart="+date+"&interval=Y1", function(data) {
+results['CO3A'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=130758358&dateStart="+date+"&interval=Y1", function(data) {
+results['X8CW'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=148386651&dateStart="+date+"&interval=Y1", function(data) {
+results['CZS'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=35580370&dateStart="+date+"&interval=Y1", function(data) {
+results['CXR'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=35580371&dateStart="+date+"&interval=Y1", function(data) {
+results['CUM'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=35580379&dateStart="+date+"&interval=Y1", function(data) {
+results['CVS'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=35580373&dateStart="+date+"&interval=Y1", function(data) {
+results['HO2'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=22457506&dateStart="+date+"&interval=Y1", function(data) {
+results['DAP'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=35580383&dateStart="+date+"&interval=Y1", function(data) {
+results['DDN'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=35580374&dateStart="+date+"&interval=Y1", function(data) {
+results['TRL'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=19113305&dateStart="+date+"&interval=Y1", function(data) {
+results['DCO'] = data;
+
 
 handleArray(results);
 																																																																																								
