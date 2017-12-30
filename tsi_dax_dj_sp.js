@@ -1546,6 +1546,63 @@ results['CGN'] = data;
 catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=129284733&dateStart="+date+"&interval=Y1", function(data) {
 results['ENY'] = data;
 
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=35373060&dateStart="+date+"&interval=Y1", function(data) {
+results['CCJ'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9386190&dateStart="+date+"&interval=Y1", function(data) {
+results['CIT'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=46134843&dateStart="+date+"&interval=Y1", function(data) {
+results['TRVC'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=114668906&dateStart="+date+"&interval=Y1", function(data) {
+results['X1C5'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9386155&dateStart="+date+"&interval=Y1", function(data) {
+results['CTX'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=35373063&dateStart="+date+"&interval=Y1", function(data) {
+results['CXX'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=35373059&dateStart="+date+"&interval=Y1", function(data) {
+results['MX4A'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=35373056&dateStart="+date+"&interval=Y1", function(data) {
+results['CSG'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=11002232&dateStart="+date+"&interval=Y1", function(data) {
+results['COZ'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=24397075&dateStart="+date+"&interval=Y1", function(data) {
+results['CPA'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385952&dateStart="+date+"&interval=Y1", function(data) {
+results['CTP2'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=35395968&dateStart="+date+"&interval=Y1", function(data) {
+results['CA3'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=35396016&dateStart="+date+"&interval=Y1", function(data) {
+results['CAO'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=182054822&dateStart="+date+"&interval=Y1", function(data) {
+results['KIJ'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=23809117&dateStart="+date+"&interval=Y1", function(data) {
+results['YCP'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=35395976&dateStart="+date+"&interval=Y1", function(data) {
+results['EDC'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=35395961&dateStart="+date+"&interval=Y1", function(data) {
+results['CB1A'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=177391990&dateStart="+date+"&interval=Y1", function(data) {
+results['CP6'] = data;
+
+catchStockData("https://www.onvista.de/onvista/boxes/historicalquote/export.csv?notationId=9385988&dateStart="+date+"&interval=Y1", function(data) {
+results['GLW'] = data;
+
 
 handleArray(results);
 																																																																																								
